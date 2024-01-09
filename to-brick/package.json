@@ -1,0 +1,20 @@
+{
+  "name": "to-brick",
+  "version": "0.7.0",
+  "description": "Writes data to brick-by-brick database",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Bert Spaan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nypl-spacetime/to-brick.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "highland": "^2.13.5",
+    "minimist": "^1.2.8",
+    "pg": "^8.11.3",
+    "ramda": "^0.29.1"
+  }
+}

@@ -3,7 +3,7 @@
 const fs = require('fs')
 const path = require('path')
 const H = require('highland')
-const brickDb = require('to-brick')
+const brickDb = require('./to-brick/index')
 
 const DATA_DIR = path.join(__dirname, 'data')
 const ORGANIZATION_ID = 'nypl'
