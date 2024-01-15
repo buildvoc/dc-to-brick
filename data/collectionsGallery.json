@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "827e583c-2736-4720-8695-b76f4622ebc7",
+    "title": "Buildings",
+    "url": "https://buildingshistory.co.uk/galleries/buildings",
+    "include": true
+  },
+  {
+    "uuid": "985e3f6d-09f1-4a0f-8cbf-060514ecb860",
+    "title": "Heritage Trail Farnham",
+    "url": "https://buildingshistory.co.uk/galleries/heritage-trail-farnham",
+    "include": true
+  },
+  {
+    "uuid": "eabce27f-9e77-4572-82a9-d5275b17f3f6",
+    "title": "Outdoors",
+    "url": "https://buildingshistory.co.uk/galleries/outdoors",
+    "include": true
+  }
+]

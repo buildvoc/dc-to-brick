@@ -19,7 +19,7 @@ const TASKS = [
   }
 ]
 
-const collections = require(path.join(DATA_DIR, 'collections.json'))
+const collections = require(path.join(DATA_DIR, 'collectionsGallery.json'))
   .filter((collection) => collection.include)
   .map((collection) => ({
     organization_id: ORGANIZATION_ID,
@@ -34,7 +34,7 @@ collections.forEach((collection) => {
   collectionsMap[collection.id] = true
 })
 
-H(fs.createReadStream(path.join(DATA_DIR, 'items.ndjson')))
+H(fs.createReadStream(path.join(DATA_DIR, 'itemsImage.ndjson')))
   .split()
   .compact()
   .map(JSON.parse)
